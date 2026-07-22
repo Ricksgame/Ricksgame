@@ -1,109 +1,58 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RickGames</title>
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Rickgames</title>
-
-<link rel="stylesheet" href="style.css">
-
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
 <header>
-
-<h1>ゲーム一覧</h1>
-
-<p class="sub">
-ここでは、今まで公開されたゲームを紹介しています。
-</p>
-
+    <h1>RickGames</h1>
+    <p>制作ゲーム一覧</p>
 </header>
 
+<main class="game-list">
 
-<section class="Top_images">
+    <!-- ゲーム① -->
+    <a href="games/game1.html" class="game-card">
 
-<img src="hero.png" alt="ゲーム画像">
+        <img src="images/game1/icon.jpg" alt="ゲーム画像">
 
-</section>
+        <div class="game-info">
 
+            <h2>ゲームタイトル</h2>
 
-<section class="info">
+            <p class="price">¥0,000</p>
 
-<div class="card">
+        </div>
 
-<h2>発売日</h2>
+    </a>
 
-<p>20XX年X月X日</p>
+    <!-- ゲーム② -->
+    <a href="games/game2.html" class="game-card">
 
-</div>
+        <img src="images/game2/icon.jpg" alt="ゲーム画像">
 
-<div class="card">
+        <div class="game-info">
 
-<h2>価格</h2>
+            <h2>Coming Soon</h2>
 
-<p>¥0,000（税込）</p>
+            <p class="price">未定</p>
 
-</div>
+        </div>
 
-</section>
+    </a>
 
-
-<section class="about">
-
-<h2>ゲームタイトル</h2>
-
-<p>
-
-ここにゲームの説明を書きます。
-
-世界観やストーリー、
-
-ゲームシステムなど。
-
-</p>
-
-</section>
-
-
-<section class="gallery">
-
-<h2>スクリーンショット</h2>
-
-<div class="images">
-
-<img src="game1.png">
-
-<img src="images/ss2.jpg">
-
-<img src="images/ss3.jpg">
-
-<img src="images/ss4.jpg">
-
-</div>
-
-</section>
-
+</main>
 
 <footer>
 
-© 2026 Rickgames
+    © 2026 RickGames
 
 </footer>
-
-
-<div id="modal">
-
-<span id="close">&times;</span>
-
-<img id="modalImg">
-
-</div>
-
-<script src="script.js"></script>
 
 </body>
 </html>
